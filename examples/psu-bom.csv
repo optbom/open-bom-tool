@@ -1,0 +1,7 @@
+Level,Item Number,Revision,Name,Quantity,Unit of Measure,Ref Des,Manufacturer,Manufacturer Part Number
+0,PSU-800,C,800W PSU,,,,,
+1,PCB-PSU-800,B,PSU main board,1,each,,,
+2,CAP-470U,A,470uF capacitor,4,each,C1-C4,Nichicon,UVR1V471MPD
+2,MOSFET-60V,A,60V MOSFET,2,each,"Q1, Q2",Infineon,IRFZ44N
+1,FAN-40,A,40mm fan,1,each,,Delta,AFB0412
+1,SCR-M3x6,A,M3x6 screw,4,each,,,

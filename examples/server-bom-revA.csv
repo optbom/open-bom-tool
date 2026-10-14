@@ -1,0 +1,16 @@
+Acme Compute - Engineering BOM export
+Top assembly: SRV-1U-001
+,
+Level,Item Number,Rev,Description,Qty,UOM,Ref Des,Mfr,Mfr Part Number,Lifecycle
+0,SRV-1U-001,B,1U compute server,,,,,,Production
+.1,CHS-1U,A,1U chassis,1,EA,,,,Production
+..2,SCR-M3x6,A,M3x6 screw,8,EA,,Acme Fasteners,M3-6-SS,Production
+..2,BRKT-DRV,A,Drive bracket assembly,2,EA,,,,Production
+...3,SCR-M3x6,A,M3x6 screw,2,EA,,Acme Fasteners,M3-6-SS,Production
+.1,MB-X1,C,Motherboard,1,EA,,,,Production
+..2,CPU-X,A,CPU,2,EA,"CPU0,CPU1",Intel,X1-2400,Production
+..2,DIMM-32G,A,32GB RDIMM,16,EA,DIMM0-DIMM15,Micron,MTA36ASF4G72PZ,Production
+..2,BRKT-DRV,A,Drive bracket assembly,1,EA,,,,Production
+.1,PWR-0800,C,800W PSU,2,EA,"PSU1,PSU2",Power Co,PSU-800,Production
+..2,FAN-40,A,40mm fan,1,EA,,Delta,AFB0412,Production
+.1,TIM-01,-,Thermal paste,A/R,,,Arctic,MX-4,Production
