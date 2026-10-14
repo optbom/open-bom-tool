@@ -43,20 +43,3 @@ A short glossary. The [README](../README.md) shows them in use.
 | **Correspondence** | The committed agreement: both sides' pinned hashes, the part pairs, and accepted differences. |
 | **Finding** | A classified difference, computed from the correspondence: *match*, *regrouped*, *moved*, *quantity*, *identity*, *sourcing*, or *only in* one side. |
 | **Approver** | The side whose approved manufacturer lists the sourcing check uses. Defaults to the runner's own side. |
-
-## Deferred work
-
-Code comments refer to deferred items by number. Each has a seam in the design so it can be added later.
-
-| # | Item | | # | Item |
-|---|---|---|---|---|
-| D1 | Physical/serialized instances (as-built) | | D11 | Users, authentication, SSO |
-| D2 | BOM standards import/export (CycloneDX, CISA HBOM, IPC) | | D12 | Access control and grants |
-| D3 | Identifier resolution (GS1 GTIN, JEDEC JEP106) | | D13 | Federation between installations |
-| D4 | Rich edge types (supersedes, built-from), effectivity | | D14 | HTTP API and web UI |
-| D5 | Rich edge attributes | | D15 | PLM integrations |
-| D6 | Branches and tags | | D16 | Disclosure bundles for offline verification |
-| D7 | Merges | | D17 | Scale and performance |
-| D8 | ECO/ECN semantics and approvals | | D18 | Hash algorithm agility |
-| D9 | Events, attestations, provenance | | D19 | Opt-in automatic cross-org updates |
-| D10 | Signatures and trusted timestamps | | D20 | Separating identity fields from descriptive metadata |
