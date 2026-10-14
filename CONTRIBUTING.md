@@ -5,7 +5,7 @@ Thanks for helping. openbom is an early prototype, so design feedback is as valu
 ## Getting started
 
 ```sh
-git clone https://github.com/Jacob-Wr/open-bom-tool.git
+git clone https://github.com/optbom/open-bom-tool.git
 cd open-bom-tool
 python3 -m venv .venv
 .venv/bin/pip install -e '.[dev]'
